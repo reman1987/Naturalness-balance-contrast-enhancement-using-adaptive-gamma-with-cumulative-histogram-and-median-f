@@ -11,4 +11,4 @@ imshow(image);    %Display input image
 
 output=NBCE(image); %Call the function NBCE for result
 
-figure, imshow([image output]); %Display result image (uint8)
+figure, imshow(output); %Display result image (uint8)
